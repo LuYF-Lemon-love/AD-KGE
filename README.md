@@ -47,9 +47,9 @@ $ pip install -r requirements.txt
 
       - [02_entity_similarity_analysis.ipynb](code/02-analysis/02_entity_similarity_analysis.ipynb): 该脚本展示了如何分析训练的实体嵌入.
 
-      - [Edge_similarity_based_on_link_recommendation_results.ipynb](code/02-analysis/Edge_similarity_based_on_link_recommendation_results.ipynb): 该脚本展示了如何分析链接类型推荐的相似性 (link type recommendation similarity).
+      - [03_edge_similarity_based_on_link_recommendation_results.ipynb](code/02-analysis/03_edge_similarity_based_on_link_recommendation_results.ipynb): 该脚本展示了如何分析链接预测的相似性 (link type recommendation similarity).
       
-      - [result](code/02-analysis/result/): 上面脚本保存的结果.
+      - [result](code/02-analysis/result/): 保存上面脚本的结果.
    
    - [03-repurpose](code/03-repurpose/): 药物重定位.
 
@@ -72,8 +72,6 @@ $ pip install -r requirements.txt
       - [03_calculate_overlap.ipynb](code/03-repurpose/03_calculate_overlap.ipynb): 该脚本计算了两个预训练模型 (TransE 和 RotatE) 药物重定位 (Alzheimer's disease) 结果重叠情况.
 
       - [AD_completion_drugs.md](code/03-repurpose/AD_completion_drugs.md): [AD_drug_repurposing.ipynb](code/03-repurpose/AD_drug_repurposing.ipynb) 的结果分析.
-
-
 
 ## Reference
 

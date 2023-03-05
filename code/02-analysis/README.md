@@ -8,8 +8,8 @@
 
 ## Analyze the Entity Embedding Similarity
 
-- [Entity_similarity_analysis.ipynb](Entity_similarity_analysis.ipynb): 我们分析了实体嵌入相似性. 我们首先使用 PCA 和 t-SNE 将实体嵌入映射到 2D 空间, 以显示实体嵌入分布.
+- [02_entity_similarity_analysis.ipynb](02_entity_similarity_analysis.ipynb): 我们分析了实体嵌入相似性. 我们首先使用 PCA 和 t-SNE 将实体嵌入映射到 2D 空间, 以显示实体嵌入分布.
 
 ## Analyze Link Type Recommendation Similarity
 
-- [Edge_similarity_based_on_link_recommendation_results.ipynb](Edge_similarity_based_on_link_recommendation_results.ipynb): 我们分析了不同关系类型之间的链接预测的相似程度. 对于种子 head node $n_i$, 我们用链接预测 score 找到关系 $r_j$ 下最可能成立的 top10 tail node, 接下来, 我们对关系 $r_{j'}$ 重复上述工作, 并计算关系 $r_j$ 和 $r_{j'}$ 的 top10 tail node 集合的 Jaccard 相似系数 (the Jaccard similarity coefficient).
+- [03_edge_similarity_based_on_link_recommendation_results.ipynb](03_edge_similarity_based_on_link_recommendation_results.ipynb): 我们分析了不同关系类型之间的链接预测的相似程度. 对于种子 head node $n_i$, 我们用链接预测 score 找到关系 $r_j$ 下最可能成立的 top10 tail node, 接下来, 我们对关系 $r_{j'}$ 重复上述工作, 并计算关系 $r_j$ 和 $r_{j'}$ 的 top10 tail node 集合的 Jaccard 相似系数 (the Jaccard similarity coefficient).
