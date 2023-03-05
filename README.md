@@ -8,6 +8,14 @@
 
 原始的 drkg 数据库 ( 链接:https://pan.baidu.com/s/1KRSHPjdCXf8y-0PfIEoPcg 提取码:war6 )
 
+## 配置环境
+
+```shell
+$ cd AD-KGE/
+$ conda env create -f environment.yaml
+$ pip install -r requirements.txt
+```
+
 ## 文件
 
 - [ad_drug_repurpose](./ad_drug_repurpose/): ad 药物重定位.
