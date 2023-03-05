@@ -1,0 +1,108 @@
+Relation-name	Interaction-type
+DGIDB::ACTIVATOR::Gene:Compound	激活剂
+DGIDB::AGONIST::Gene:Compound	兴奋剂
+DGIDB::ALLOSTERIC MODULATOR::Gene:Compound	变构调节剂
+DGIDB::ANTAGONIST::Gene:Compound	拮抗剂
+DGIDB::ANTIBODY::Gene:Compound	抗体
+DGIDB::BINDER::Gene:Compound	粘合剂
+DGIDB::BLOCKER::Gene:Compound	阻滞剂,拮抗剂
+DGIDB::CHANNEL BLOCKER::Gene:Compound	通道阻断剂
+DGIDB::INHIBITOR::Gene:Compound	抑制剂
+DGIDB::MODULATOR::Gene:Compound	调节剂
+DGIDB::OTHER::Gene:Compound	其他
+DGIDB::PARTIAL AGONIST::Gene:Compound	部分激动剂
+DGIDB::POSITIVE ALLOSTERIC MODULATOR::Gene:Compound	正变构调节剂
+DRUGBANK::carrier::Compound:Gene	载体
+DRUGBANK::ddi-interactor-in::Compound:Compound	药物间相互作用
+DRUGBANK::enzyme::Compound:Gene	酶
+DRUGBANK::target::Compound:Gene	药物靶点
+DRUGBANK::x-atc::Compound:Atc	属于
+DRUGBANK::treats::Compound:Disease	治疗
+GNBR::A+::Compound:Gene	兴奋剂,激活剂
+GNBR::A-::Compound:Gene	拮抗剂,阻断剂
+GNBR::B::Compound:Gene	粘合剂,配体,受体
+GNBR::B::Gene:Gene	粘合剂,配体,受体
+GNBR::C::Compound:Disease	抑制细胞生长,尤其是癌症
+GNBR::D::Gene:Disease	药物靶点
+GNBR::E+::Compound:Gene	增加表达/产量
+GNBR::E+::Gene:Gene	增加表达/产量
+GNBR::E-::Compound:Gene	减少表达/产生
+GNBR::E::Compound:Gene	影响表达/产生（中性）
+GNBR::E::Gene:Gene	影响表达/产生（中性）
+GNBR::G::Gene:Disease	促进进展
+GNBR::H::Gene:Gene	相同蛋白质或复合物
+GNBR::I::Gene:Gene	信号通路
+GNBR::J::Compound:Disease	在疾病发病机制中的作用
+GNBR::J::Gene:Disease	在疾病发病机制中的作用
+GNBR::K::Compound:Gene	代谢,药代动力学
+GNBR::L::Gene:Disease	与疾病相关的不正确的调控
+GNBR::Md::Gene:Disease	生物标志物（诊断性）
+GNBR::Mp::Compound:Disease	生物标志物（疾病进展）
+GNBR::N::Compound:Gene	抑制剂
+GNBR::O::Compound:Gene	转运通道
+GNBR::Pa::Compound:Disease	缓解,减少
+GNBR::Pr::Compound:Disease	预防,抑制
+GNBR::Q::Gene:Gene	通过细胞群体分泌
+GNBR::Rg::Gene:Gene	调控
+GNBR::Sa::Compound:Disease	副作用,不良事件
+GNBR::T::Compound:Disease	治疗,治疗（包括检查）
+GNBR::Te::Gene:Disease	可能的治疗效果
+GNBR::U::Gene:Disease	因果突变
+GNBR::Ud::Gene:Disease	影响病程的突变
+GNBR::V+::Gene:Gene	激活,刺激
+GNBR::W::Gene:Gene	增强响应
+GNBR::X::Gene:Disease	疾病中的过度表达
+GNBR::Y::Gene:Disease	多态性改变风险
+GNBR::Z::Compound:Gene	酶活性
+GNBR::in_tax::Gene:Tax	属于
+Hetionet::AdG::Anatomy:Gene	下调
+Hetionet::AeG::Anatomy:Gene	表达
+Hetionet::AuG::Anatomy:Gene	上调
+Hetionet::CbG::Compound:Gene	粘合剂
+Hetionet::CcSE::Compound:Side Effect	导致
+Hetionet::CdG::Compound:Gene	下调
+Hetionet::CpD::Compound:Disease	缓解
+Hetionet::CrC::Compound:Compound	相似
+Hetionet::CtD::Compound:Disease	治疗
+Hetionet::CuG::Compound:Gene	上调
+Hetionet::DaG::Disease:Gene	关联
+Hetionet::DdG::Disease:Gene	下调
+Hetionet::DlA::Disease:Anatomy	定位
+Hetionet::DpS::Disease:Symptom	表现
+Hetionet::DrD::Disease:Disease	相似
+Hetionet::DuG::Disease:Gene	上调
+Hetionet::GcG::Gene:Gene	相关变异
+Hetionet::GiG::Gene:Gene	交互
+Hetionet::GpBP::Gene:Biological Process	参与
+Hetionet::GpCC::Gene:Cellular Component	参与
+Hetionet::GpMF::Gene:Molecular Function	参与
+Hetionet::GpPW::Gene:Pathway	参与
+Hetionet::Gr>G::Gene:Gene	调控
+Hetionet::PCiC::Pharmacologic Class:Compound	包含
+INTACT::ADP RIBOSYLATION REACTION::Gene:Gene	ADP核糖基化反应
+INTACT::ASSOCIATION::Compound:Gene	关联
+INTACT::ASSOCIATION::Gene:Gene	关联
+INTACT::CLEAVAGE REACTION::Gene:Gene	裂解反应
+INTACT::COLOCALIZATION::Gene:Gene	共定位
+INTACT::DEPHOSPHORYLATION REACTION::Gene:Gene	去磷酸化反应
+INTACT::DIRECT INTERACTION::Compound:Gene	直接相互作用
+INTACT::DIRECT INTERACTION::Gene:Gene	直接相互作用
+INTACT::PHOSPHORYLATION REACTION::Gene:Gene	磷酸化反应
+INTACT::PHYSICAL ASSOCIATION::Compound:Gene	物理缔合
+INTACT::PHYSICAL ASSOCIATION::Gene:Gene	物理缔合
+INTACT::PROTEIN CLEAVAGE::Gene:Gene	蛋白质内含子剪切
+INTACT::UBIQUITINATION REACTION::Gene:Gene	泛素化反应
+STRING::ACTIVATION::Gene:Gene	激活
+STRING::BINDING::Gene:Gene	结合
+STRING::CATALYSIS::Gene:Gene	催化
+STRING::EXPRESSION::Gene:Gene	表达
+STRING::INHIBITION::Gene:Gene	抑制
+STRING::OTHER::Gene:Gene	其他
+STRING::PTMOD::Gene:Gene	翻译后修饰
+STRING::REACTION::Gene:Gene	反应
+bioarx::Coronavirus_ass_host_gene::Disease:Gene	相互作用
+bioarx::Covid2_acc_host_gene::Disease:Gene	相互作用
+bioarx::DrugHumGen:Compound:Gene	相互作用
+bioarx::DrugVirGen:Compound:Gene	相互作用
+bioarx::HumGenHumGen:Gene:Gene	蛋白质间相互作用
+bioarx::VirGenHumGen:Gene:Gene	蛋白质间相互作用
