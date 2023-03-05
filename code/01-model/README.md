@@ -300,7 +300,7 @@ RotatE 模型最佳参数是第 8 号:
 
 由于 ComplEx 的 MR 的结果太差, 最终选择最优模型 RotatE.
 
->由于 RotatE 的训练时间较长, 所需的时间是 TransE_l2 的 8 倍 (3216.963 / 393.754 = 8.17), 因此，我们将 RotatE 的训练参数 max_step 由 100000 变为 60000, 且将 hidden_dim 固定为 200.
+>由于 RotatE 的训练时间较长, 所需的时间是 TransE_l2 的 8 倍 (3216.963 / 393.754 = 8.17), 因此，我们将 RotatE 的训练参数 max_step 由 100000 变为 60000, 且将 hidden_dim 固定为 200. 详情请见 [08_Train_RotatE.ipynb](08_Train_RotatE.ipynb), 因此, RotatE 实际效果比数据显示的更好.
 
 ## 获得实体和关系嵌入
   

@@ -54,7 +54,7 @@ $ pip install -r requirements.txt
       
       - [09_Train_final_model_RotatE.ipynb](code/01-model/09_Train_final_model_RotatE.ipynb): 该脚本展示了如何在 DRKG 上训练最终模型 (RotatE).
 
-   - [02-analysis](./paper01-dgl-ke/02-analysis/): 知识图谱嵌入向量分析.
+   - [02-analysis](code/02-analysis/): 知识图谱嵌入向量分析.
   
       - [Relation_similarity_analysis.ipynb](./paper01-dgl-ke/02-analysis/Relation_similarity_analysis.ipynb): 该脚本展示了如何分析训练的关系嵌入.
 
