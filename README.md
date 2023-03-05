@@ -73,8 +73,6 @@ $ pip install -r requirements.txt
       
       - [03_calculate_overlap.ipynb](code/03-repurpose/03_calculate_overlap.ipynb): 该脚本计算了两个预训练模型 (TransE 和 RotatE) 药物重定位 (Alzheimer's disease) 结果重叠情况.
 
-      - [AD_completion_drugs.md](code/03-repurpose/AD_completion_drugs.md): [AD_drug_repurposing.ipynb](code/03-repurpose/AD_drug_repurposing.ipynb) 的结果分析.
-
 ## Reference
 
 [1] Drug Repurposing Knowledge Graph (DRKG), link: https://github.com/gnn4dr/DRKG .

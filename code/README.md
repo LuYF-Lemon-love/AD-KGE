@@ -50,5 +50,3 @@
    - [result](03-repurpose/results/): 保存 [01_TransE_l2_AD_drug_repurposing.ipynb](03-repurpose/01_TransE_l2_AD_drug_repurposing.ipynb) 和 [02_RotatE_AD_drug_repurposing.ipynb](03-repurpose/02_RotatE_AD_drug_repurposing.ipynb) 的结果.
    
    - [03_calculate_overlap.ipynb](03-repurpose/03_calculate_overlap.ipynb): 该脚本计算了两个预训练模型 (TransE 和 RotatE) 药物重定位 (Alzheimer's disease) 结果重叠情况.
-
-   - [AD_completion_drugs.md](03-repurpose/AD_completion_drugs.md): [AD_drug_repurposing.ipynb](03-repurpose/AD_drug_repurposing.ipynb) 的结果分析.
