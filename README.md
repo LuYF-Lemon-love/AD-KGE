@@ -69,7 +69,7 @@ $ pip install -r requirements.txt
 
       - [02_RotatE_AD_drug_repurposing.ipynb](code/03-repurpose/02_RotatE_AD_drug_repurposing.ipynb): 该脚本展示了如何使用我们的预训练模型 ([09_Train_final_model_RotatE.ipynb](code/01-model/09_Train_final_model_RotatE.ipynb)) 进行药物重定位 (Alzheimer's disease). 需要的预训练模型 (链接：https://pan.baidu.com/s/1fWfHXjUZXSM3ekCG6BEDSw 提取码：8ctv )
       
-      - [03_calculate_overlap.ipynb](code/03-repurpose/03_calculate_overlap.ipynb): 
+      - [03_calculate_overlap.ipynb](code/03-repurpose/03_calculate_overlap.ipynb): 该脚本计算了两个预训练模型 (TransE 和 RotatE) 药物重定位 (Alzheimer's disease) 结果重叠情况.
 
       - [AD_completion_drugs.md](code/03-repurpose/AD_completion_drugs.md): [AD_drug_repurposing.ipynb](code/03-repurpose/AD_drug_repurposing.ipynb) 的结果分析.
 
