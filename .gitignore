@@ -2,10 +2,6 @@
 # created by LuYF-Lemon-love <luyanfeng_nlp@qq.com>
 
 .ipynb_checkpoints/
-script/.ipynb_checkpoints/
 data/
-data.rar
-embedding_analysis/train/
-embedding_analysis/ckpts/
 code/01-model/dataset
 code/01-model/ckpts
