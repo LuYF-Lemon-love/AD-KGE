@@ -1,10 +1,10 @@
 # Knowledge Graph Embedding Based Analysis of DRKG
 
-我们通过训练利用 $\ell_2$ 的 TransE 模型来分析 DRKG. **由于 DRKG 结合了来自不同数据源的信息, 我们希望验证使用知识图嵌入技术可以生成有意义的实体和关系嵌入.**
+我们通过之前训练的 RotatE 模型来分析 DRKG. **由于 DRKG 结合了来自不同数据源的信息, 我们希望验证使用知识图嵌入技术可以生成有意义的实体和关系嵌入.**
 
 ## Analyze the Relation Embedding Similarity
 
-- [relation_similarity_analysis.ipynb](./Relation_similarity_analysis.ipynb): 我们分析了关系嵌入相似性. 我们首先使用 t-SNE 将关系嵌入映射到 2D 空间, 以显示关系嵌入分布, 然后绘制不同关系类型之间的成对相似性(the pair-wise similarity).
+- [01_relation_similarity_analysis.ipynb](01_relation_similarity_analysis.ipynb): 我们分析了关系嵌入相似性. 我们首先使用 t-SNE 将关系嵌入映射到 2D 空间, 以显示关系嵌入分布, 然后绘制不同关系类型之间的成对相似性(the pair-wise similarity).
 
 ## Analyze the Entity Embedding Similarity
 
