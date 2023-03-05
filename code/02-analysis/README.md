@@ -8,7 +8,7 @@
 
 ## Analyze the Entity Embedding Similarity
 
-- [Entity_similarity_analysis.ipynb](Entity_similarity_analysis.ipynb): 我们分析了实体嵌入相似性. 我们首先使用 t-SNE 将实体嵌入映射到 2D 空间, 以显示实体嵌入分布, 然后绘制不同实体类型之间的成对相似性(the pair-wise similarity).
+- [Entity_similarity_analysis.ipynb](Entity_similarity_analysis.ipynb): 我们分析了实体嵌入相似性. 我们首先使用 PCA 和 t-SNE 将实体嵌入映射到 2D 空间, 以显示实体嵌入分布.
 
 ## Analyze Link Type Recommendation Similarity
 
