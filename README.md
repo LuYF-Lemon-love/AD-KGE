@@ -68,6 +68,8 @@ $ pip install -r requirements.txt
             - [ad_drugs.txt](code/03-repurpose/prerequisites/ad_drugs.txt): [drug_treat_ad.tsv](code/03-repurpose/prerequisites/drug_treat_ad.tsv) 中的药物集合. 利用 [raw_ad_triples.ipynb](code/03-repurpose/prerequisites/raw_ad_triples.ipynb) 脚本生成.
 
       - [02_RotatE_AD_drug_repurposing.ipynb](code/03-repurpose/02_RotatE_AD_drug_repurposing.ipynb): 该脚本展示了如何使用我们的预训练模型 ([09_Train_final_model_RotatE.ipynb](code/01-model/09_Train_final_model_RotatE.ipynb)) 进行药物重定位 (Alzheimer's disease). 需要的预训练模型 (链接：https://pan.baidu.com/s/1fWfHXjUZXSM3ekCG6BEDSw 提取码：8ctv )
+      
+      - [03_calculate_overlap.ipynb](code/03-repurpose/03_calculate_overlap.ipynb): 
 
       - [AD_completion_drugs.md](code/03-repurpose/AD_completion_drugs.md): [AD_drug_repurposing.ipynb](code/03-repurpose/AD_drug_repurposing.ipynb) 的结果分析.
 
