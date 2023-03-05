@@ -11,26 +11,13 @@
 ## 配置环境
 
 ```shell
+$ git clone git@github.com:LuYF-Lemon-love/AD-KGE.git
 $ cd AD-KGE/
 $ conda env create -f environment.yaml
 $ pip install -r requirements.txt
 ```
 
 ## 文件
-
-- [ad_drug_repurpose](./ad_drug_repurpose/): ad 药物重定位.
-   
-   - [AD_drug_repurposing.ipynb](./ad_drug_repurpose/AD_drug_repurposing.ipynb): 该脚本展示了如何使用 DRKG 的预训练模型 (TransE) 进行药物重定位 (Alzheimer's disease). 需要的预训练模型 (链接：https://pan.baidu.com/s/1MiRNpE9iZTiuqe_aKN9gvg 提取码：lnkt )
-   
-   - [infer_drug.tsv](./ad_drug_repurpose/infer_drug.tsv): Drugbank 中的 FDA 批准的药物清单 (排除分子量 < 250 的药物).
-   
-   - [raw_ad_triples.ipynb](./ad_drug_repurpose/raw_ad_triples.ipynb) 该脚本展示了如何提取 DRKG 中药物治疗 Alzheimer's disease 的三元组. 需要的原始的知识图谱 (链接：https://pan.baidu.com/s/19kPh0kLL2X4HL30yjlm_vA 提取码：r4k5 )
-   
-   - [drug_treat_ad.tsv](./ad_drug_repurpose/drug_treat_ad.tsv): DRKG 中药物治疗 AD 的三元组集合. 利用 [raw_ad_triples.ipynb](./ad_drug_repurpose/raw_ad_triples.ipynb) 脚本生成.
-   
-   - [ad_drugs.txt](./ad_drug_repurpose/ad_drugs.txt): [drug_treat_ad.tsv](./ad_drug_repurpose/drug_treat_ad.tsv) 中的药物集合. 利用 [raw_ad_triples.ipynb](./ad_drug_repurpose/raw_ad_triples.ipynb) 脚本生成.
-   
-   - [AD_completion_drugs.md](./ad_drug_repurpose/AD_completion_drugs.md): [AD_drug_repurposing.ipynb](./ad_drug_repurpose/AD_drug_repurposing.ipynb) 的结果分析.
 
 - [code](./code/): 代码目录.
 
@@ -66,7 +53,7 @@ $ pip install -r requirements.txt
    
    - [03-repurpose](code/03-repurpose/): 药物重定位.
 
-      - [AD_drug_repurposing.ipynb](code/03-repurpose/AD_drug_repurposing.ipynb): 该脚本展示了如何使用 DRKG 的预训练模型 (TransE) 进行药物重定位 (Alzheimer's disease). 需要的预训练模型 (链接：https://pan.baidu.com/s/1MiRNpE9iZTiuqe_aKN9gvg 提取码：lnkt )
+      - [01_TransE_l2_AD_drug_repurposing.ipynb](code/03-repurpose/01_TransE_l2_AD_drug_repurposing.ipynb): 该脚本展示了如何使用 DRKG 的预训练模型 (TransE) 进行药物重定位 (Alzheimer's disease). 需要的预训练模型 (链接：https://pan.baidu.com/s/1MiRNpE9iZTiuqe_aKN9gvg 提取码：lnkt )
          
          - [disease.tsv](code/03-repurpose/prerequisites/disease.tsv): 是 **drkg** 的疾病实体文件, 总共 **5103** 个实体. 每一行是**疾病实体名**, **疾病英文名**, **疾病中文名**. 例如: 第一行中的 **Disease::DOID:0050156**, **idiopathic pulmonary fibrosis**, **特发性肺纤维化**, 其中**疾病实体名**由**实体类型** (Disease) 和**源数据库的 ID** 组成. 参考于原始 DRKG 知识图谱的 **entity2src.tsv**.
          
@@ -80,7 +67,11 @@ $ pip install -r requirements.txt
             
             - [ad_drugs.txt](code/03-repurpose/prerequisites/ad_drugs.txt): [drug_treat_ad.tsv](code/03-repurpose/prerequisites/drug_treat_ad.tsv) 中的药物集合. 利用 [raw_ad_triples.ipynb](code/03-repurpose/prerequisites/raw_ad_triples.ipynb) 脚本生成.
 
+      - [02_RotatE_AD_drug_repurposing.ipynb](code/03-repurpose/02_RotatE_AD_drug_repurposing.ipynb): 该脚本展示了如何使用我们的预训练模型 ([09_Train_final_model_RotatE.ipynb](code/01-model/09_Train_final_model_RotatE.ipynb)) 进行药物重定位 (Alzheimer's disease). 需要的预训练模型 (链接：https://pan.baidu.com/s/1fWfHXjUZXSM3ekCG6BEDSw 提取码：8ctv )
+
       - [AD_completion_drugs.md](code/03-repurpose/AD_completion_drugs.md): [AD_drug_repurposing.ipynb](code/03-repurpose/AD_drug_repurposing.ipynb) 的结果分析.
+
+
 
 ## Reference
 
