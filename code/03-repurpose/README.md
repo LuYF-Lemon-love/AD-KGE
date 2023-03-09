@@ -2,7 +2,7 @@
 
 ```python
 # created by LuYF-Lemon-love <luyanfeng_nlp@qq.com> on January 12, 2023
-# updated by LuYF-Lemon-love <luyanfeng_nlp@qq.com> on January 16, 2023
+# updated by LuYF-Lemon-love <luyanfeng_nlp@qq.com> on March 5, 2023
 #
 # 该文档分析了两个预训练模型 (TransE 和 RotatE) 药物重定位 (Alzheimer's disease) 重叠的药物.
 #
