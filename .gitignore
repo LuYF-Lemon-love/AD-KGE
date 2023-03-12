@@ -6,4 +6,4 @@ data/
 code/01-model/dataset
 code/01-model/ckpts
 code/02-analysis/result/entity/entity.svg
-code/02-analysis/result/entity/entity_no_AD.svg
+#code/02-analysis/result/entity/entity_no_AD.svg
