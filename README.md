@@ -65,7 +65,7 @@ $ pip install -r requirements.txt
    
    - [03-repurpose](code/03-repurpose/): 药物重定位.
 
-      - [01_TransE_l2_AD_drug_repurposing.ipynb](code/03-repurpose/01_TransE_l2_AD_drug_repurposing.ipynb): 该脚本展示了如何使用 DRKG 的预训练模型 (TransE) 进行药物重定位 (Alzheimer's disease). 需要的预训练模型 (链接：https://pan.baidu.com/s/1MiRNpE9iZTiuqe_aKN9gvg 提取码：lnkt )
+      - [prerequisites](code/03-repurpose/prerequisites/): 先决条件.
          
          - [disease.tsv](code/03-repurpose/prerequisites/disease.tsv): 是 **drkg** 的疾病实体文件, 总共 **5103** 个实体. 每一行是**疾病实体名**, **疾病英文名**, **疾病中文名**. 例如: 第一行中的 **Disease::DOID:0050156**, **idiopathic pulmonary fibrosis**, **特发性肺纤维化**, 其中**疾病实体名**由**实体类型** (Disease) 和**源数据库的 ID** 组成. 参考于原始 DRKG 知识图谱的 **entity2src.tsv**.
          
@@ -79,11 +79,19 @@ $ pip install -r requirements.txt
             
             - [ad_drugs.txt](code/03-repurpose/prerequisites/ad_drugs.txt): [drug_treat_ad.tsv](code/03-repurpose/prerequisites/drug_treat_ad.tsv) 中的药物集合. 利用 [raw_ad_triples.ipynb](code/03-repurpose/prerequisites/raw_ad_triples.ipynb) 脚本生成.
 
-      - [02_RotatE_AD_drug_repurposing.ipynb](code/03-repurpose/02_RotatE_AD_drug_repurposing.ipynb): 该脚本展示了如何使用我们的预训练模型 ([09_Train_final_model_RotatE.ipynb](code/01-model/09_Train_final_model_RotatE.ipynb)) 进行药物重定位 (Alzheimer's disease). 需要的预训练模型 (链接：https://pan.baidu.com/s/1fWfHXjUZXSM3ekCG6BEDSw 提取码：8ctv )
+      - 最终训练的模型 (TransE_l1, TransE_l2, ComplEx, RotatE): 链接：https://pan.baidu.com/s/1-9o2ELys5T3rqC9UEKgkXg?pwd=jigj 提取码：jigj .
+   
+      - [01_TransE_l1_AD_drug_repurposing.ipynb](code/03-repurpose/01_TransE_l1_AD_drug_repurposing.ipynb): 该脚本展示了如何使用我们的预训练模型 ([09_Train_final_model_TransE_l1.ipynb](code/01-model/09_Train_final_model_TransE_l1.ipynb)) 进行药物重定位 (Alzheimer's disease), 其中 topk = 50.
+   
+      - [02_TransE_l2_AD_drug_repurposing.ipynb](code/03-repurpose/02_TransE_l2_AD_drug_repurposing.ipynb): 该脚本展示了如何使用我们的预训练模型 ([10_Train_final_model_TransE_l2.ipynb](code/01-model/   10_Train_final_model_TransE_l2.ipynb)) 进行药物重定位 (Alzheimer's disease), 其中 topk = 50.
+   
+      - [03_ComplEx_AD_drug_repurposing.ipynb](code/03-repurpose/03_ComplEx_AD_drug_repurposing.ipynb): 该脚本展示了如何使用我们的预训练模型 ([11_Train_final_model_ComplEx.ipynb](code/01-model/11_Train_final_model_ComplEx.ipynb)) 进行药物重定位 (Alzheimer's disease), 其中 topk = 100.
       
-      - [result](code/03-repurpose/results/): 保存 [01_TransE_l2_AD_drug_repurposing.ipynb](code/03-repurpose/01_TransE_l2_AD_drug_repurposing.ipynb) 和 [02_RotatE_AD_drug_repurposing.ipynb](code/03-repurpose/02_RotatE_AD_drug_repurposing.ipynb) 的结果.
+      - [04_RotatE_AD_drug_repurposing.ipynb](code/03-repurpose/04_RotatE_AD_drug_repurposing.ipynb): 该脚本展示了如何使用我们的预训练模型 ([12_Train_final_model_RotatE.ipynb](code/01-model/12_Train_final_model_RotatE.ipynb)) 进行药物重定位 (Alzheimer's disease), 其中 topk = 50.
       
-      - [03_calculate_overlap.ipynb](code/03-repurpose/03_calculate_overlap.ipynb): 该脚本计算了两个预训练模型 (TransE 和 RotatE) 药物重定位 (Alzheimer's disease) 结果重叠情况.
+      - [result](code/03-repurpose/results/): 保存上面脚本的结果.
+      
+      - [05_calculate_overlap.ipynb](code/03-repurpose/05_calculate_overlap.ipynb): 该脚本计算了四个个预训练模型 (transE_l1, transE_l2, ComplEx, rotatE) 药物重定位 (Alzheimer's disease) 结果重叠情况.
 
 ## Reference
 
