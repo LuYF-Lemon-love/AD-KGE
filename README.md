@@ -83,7 +83,7 @@ $ pip install -r requirements.txt
    
       - [01_TransE_l1_AD_drug_repurposing.ipynb](code/03-repurpose/01_TransE_l1_AD_drug_repurposing.ipynb): 该脚本展示了如何使用我们的预训练模型 ([09_Train_final_model_TransE_l1.ipynb](code/01-model/09_Train_final_model_TransE_l1.ipynb)) 进行药物重定位 (Alzheimer's disease), 其中 topk = 50.
    
-      - [02_TransE_l2_AD_drug_repurposing.ipynb](code/03-repurpose/02_TransE_l2_AD_drug_repurposing.ipynb): 该脚本展示了如何使用我们的预训练模型 ([10_Train_final_model_TransE_l2.ipynb](code/01-model/   10_Train_final_model_TransE_l2.ipynb)) 进行药物重定位 (Alzheimer's disease), 其中 topk = 50.
+      - [02_TransE_l2_AD_drug_repurposing.ipynb](code/03-repurpose/02_TransE_l2_AD_drug_repurposing.ipynb): 该脚本展示了如何使用我们的预训练模型 ([10_Train_final_model_TransE_l2.ipynb](code/01-model/10_Train_final_model_TransE_l2.ipynb)) 进行药物重定位 (Alzheimer's disease), 其中 topk = 50.
    
       - [03_ComplEx_AD_drug_repurposing.ipynb](code/03-repurpose/03_ComplEx_AD_drug_repurposing.ipynb): 该脚本展示了如何使用我们的预训练模型 ([11_Train_final_model_ComplEx.ipynb](code/01-model/11_Train_final_model_ComplEx.ipynb)) 进行药物重定位 (Alzheimer's disease), 其中 topk = 100.
       
