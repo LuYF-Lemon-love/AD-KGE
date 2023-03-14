@@ -53,7 +53,13 @@ $ pip install -r requirements.txt
 
       - [02_entity_similarity_analysis.ipynb](code/02-analysis/02_entity_similarity_analysis.ipynb): 该脚本展示了如何分析训练的实体嵌入.
 
-      - [03_edge_similarity_based_on_link_recommendation_results.ipynb](code/02-analysis/03_edge_similarity_based_on_link_recommendation_results.ipynb): 该脚本展示了如何分析链接预测的相似性 (link type recommendation similarity).
+      - [03_TransE_l1_edge_similarity_based_on_link_recommendation_results.ipynb](code/02-analysis/03_TransE_l1_edge_similarity_based_on_link_recommendation_results.ipynb): 该脚本展示了如何分析 TransE_l1 的关系类型推荐相似性 (Link Type Recommendation Similarity).
+      
+      - [04_TransE_l2_edge_similarity_based_on_link_recommendation_results.ipynb](code/02-analysis/04_TransE_l2_edge_similarity_based_on_link_recommendation_results.ipynb): 该脚本展示了如何分析 TransE_l2 的关系类型推荐相似性 (Link Type Recommendation Similarity).
+      
+      - [05_ComplEx_edge_similarity_based_on_link_recommendation_results.ipynb](code/02-analysis/05_ComplEx_edge_similarity_based_on_link_recommendation_results.ipynb): 该脚本展示了如何分析 ComplEx 的关系类型推荐相似性 (Link Type Recommendation Similarity).
+      
+      - [06_RotatE_edge_similarity_based_on_link_recommendation_results.ipynb](code/02-analysis/06_RotatE_edge_similarity_based_on_link_recommendation_results.ipynb): 该脚本展示了如何分析 RotatE 的关系类型推荐相似性 (Link Type Recommendation Similarity).
       
       - [result](code/02-analysis/result/): 保存上面脚本的结果.
    

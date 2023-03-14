@@ -12,4 +12,12 @@
 
 ## Analyze Link Type Recommendation Similarity
 
-- [03_edge_similarity_based_on_link_recommendation_results.ipynb](03_edge_similarity_based_on_link_recommendation_results.ipynb): 我们分析了不同关系类型之间的链接预测的相似程度. 对于种子 head node $n_i$, 我们用链接预测 score 找到关系 $r_j$ 下最可能成立的 top10 tail node, 接下来, 我们对关系 $r_{j'}$ 重复上述工作, 并计算关系 $r_j$ 和 $r_{j'}$ 的 top10 tail node 集合的 Jaccard 相似系数 (the Jaccard similarity coefficient).
+我们分析了不同关系类型之间的链接预测的相似程度. 对于种子 head node $n_i$, 我们用链接预测 score 找到关系 $r_j$ 下最可能成立的 top10 tail node, 接下来, 我们对关系 $r_{j'}$ 重复上述工作, 并计算关系 $r_j$ 和 $r_{j'}$ 的 top10 tail node 集合的 Jaccard 相似系数 (the Jaccard similarity coefficient).
+
+- [03_TransE_l1_edge_similarity_based_on_link_recommendation_results.ipynb](03_TransE_l1_edge_similarity_based_on_link_recommendation_results.ipynb): TransE_l1.
+  
+- [04_TransE_l2_edge_similarity_based_on_link_recommendation_results.ipynb](04_TransE_l2_edge_similarity_based_on_link_recommendation_results.ipynb): TransE_l2.
+
+- [05_ComplEx_edge_similarity_based_on_link_recommendation_results.ipynb](05_ComplEx_edge_similarity_based_on_link_recommendation_results.ipynb): ComplEx.
+
+- [06_RotatE_edge_similarity_based_on_link_recommendation_results.ipynb](06_RotatE_edge_similarity_based_on_link_recommendation_results.ipynb): RotatE.
