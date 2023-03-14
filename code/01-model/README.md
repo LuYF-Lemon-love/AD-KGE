@@ -298,9 +298,23 @@ RotatE 模型最佳参数是第 8 号:
 |ComplEx|**`0.621`**|112.74|**`0.537`**|*`0.673`*|*`0.768`*|
 |RotatE|*`0.614`*|63.51|*`0.515`*|**`0.681`**|**`0.780`**|
 
-由于 ComplEx 的 MR 的结果太差, 最终选择最优模型 RotatE.
+考虑到上面的结果，我们排除了 DistMult 模型.
 
->由于 RotatE 的训练时间较长, 所需的时间是 TransE_l2 的 8 倍 (3216.963 / 393.754 = 8.17), 因此，我们将 RotatE 的训练参数 max_step 由 100000 变为 60000, 且将 hidden_dim 固定为 200. 详情请见 [08_Train_RotatE.ipynb](08_Train_RotatE.ipynb), 因此, RotatE 实际效果比数据显示的更好.
+## 训练最佳模型
+
+这一次我们没有划分数据集, 直接用全部的三元组训练的模型.
+
+为了更充分的训练 RotatE, 我们将 max_step 从 **60000** 改变为 **100000**, 使得它和其它种类的模型训练的 max_step 一样.
+
+训练脚本:
+
+- [09_Train_final_model_TransE_l1.ipynb](09_Train_final_model_TransE_l1.ipynb): TransE_l1.
+
+- [10_Train_final_model_TransE_l2.ipynb](10_Train_final_model_TransE_l2.ipynb): TransE_l2.
+
+- [11_Train_final_model_ComplEx.ipynb](11_Train_final_model_ComplEx.ipynb): ComplEx.
+
+- [12_Train_final_model_RotatE.ipynb](12_Train_final_model_RotatE.ipynb): RotatE.
 
 ## 获得实体和关系嵌入
   
@@ -327,9 +341,3 @@ relation_emb = np.load('./ckpts/TransE_l2_DRKG_0/DRKG_TransE_l2_relation.npy')
 print(node_emb.shape)
 print(relation_emb.shape)
 ```
-
-## 训练最佳模型 RotatE
-
-为了更充分的训练 RotatE, 我们将 max_step 从 **60000** 改变为 **100000**, 使得它和其它种类的模型训练的 max_step 一样.
-
-训练脚本: [09_Train_final_model_RotatE.ipynb](09_Train_final_model_RotatE.ipynb), 这一次我们没有划分数据集, 直接用全部的三元组训练的模型. 模型保存在 `ckpts/RotatE_All_DRKG_0` 中.

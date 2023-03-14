@@ -18,7 +18,14 @@
    
    - [08_Train_RotatE.ipynb](01-model/08_Train_RotatE.ipynb): 该脚本展示了如何在 DRKG 上训练模型 (RotatE), 并利用网格搜索寻找到最优参数.
    
-   - [09_Train_final_model_RotatE.ipynb](01-model/09_Train_final_model_RotatE.ipynb): 该脚本展示了如何在 DRKG 上训练最终模型 (RotatE).
+   - [09_Train_final_model_TransE_l1.ipynb](01-model/09_Train_final_model_TransE_l1.ipynb): 该脚本展示了如何在 DRKG 上训练最终模型 (TransE_l1).
+   
+   - [10_Train_final_model_TransE_l2.ipynb](01-model/10_Train_final_model_TransE_l2.ipynb): 该脚本展示了如何在 DRKG 上训练最终模型 (TransE_l2).
+   
+   - [11_Train_final_model_ComplEx.ipynb](01-model/11_Train_final_model_ComplEx.ipynb): 该脚本展示了如何在 DRKG 上训练最终模型 (ComplEx).
+   
+   - [12_Train_final_model_RotatE.ipynb](01-model/12_Train_final_model_RotatE.ipynb): 该脚本展示了如何在 DRKG 上训练最终模型 (RotatE).
+
 - [02-analysis](02-analysis/): 知识图谱嵌入向量分析.
 
    - [01_relation_similarity_analysis.ipynb](02-analysis/01_relation_similarity_analysis.ipynb): 该脚本展示了如何分析训练的关系嵌入.
