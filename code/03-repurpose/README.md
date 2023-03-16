@@ -17,7 +17,7 @@
 
 ## 4 种模型药物重定位结果重叠情况
 
-### transE_l1_top50 and transE_l2_top50
+### TransE_l1_top50 and TransE_l2_top50
 
 ```shell
 Compound::DB00477
@@ -33,7 +33,7 @@ Compound::DB00363
 Compound::DB00624
 ```
 
-### transE_l1_top50 and ComplEx_top100
+### TransE_l1_top50 and ComplEx_top100
 
 ```shell
 Compound::DB00563
@@ -41,7 +41,7 @@ Compound::DB00661
 Compound::DB00363
 ```
 
-### transE_l1_top50 and rotatE_top50
+### TransE_l1_top50 and RotatE_top50
 
 ```shell
 Compound::DB06774
@@ -53,7 +53,7 @@ Compound::DB04540
 Compound::DB00907
 ```
 
-### transE_l2_top50 and ComplEx_top100
+### TransE_l2_top50 and ComplEx_top100
 
 ```shell
 Compound::DB00959
@@ -61,7 +61,7 @@ Compound::DB00661
 Compound::DB00363
 ```
 
-### transE_l2_top50 and rotatE_top50
+### TransE_l2_top50 and RotatE_top50
 
 ```shell
 Compound::DB09341
@@ -74,21 +74,21 @@ Compound::DB00502
 Compound::DB01229
 ```
 
-### ComplEx_top100 and rotatE_top50
+### ComplEx_top100 and RotatE_top50
 
 ```shell
 Compound::DB01016
 Compound::DB00715
 ```
 
-### transE_l1_top50 and transE_l2_top50 and ComplEx_top100
+### TransE_l1_top50 and TransE_l2_top50 and ComplEx_top100
 
 ```shell
 Compound::DB00363
 Compound::DB00661
 ```
 
-### transE_l1_top50 and transE_l2_top50 and rotatE_top50
+### TransE_l1_top50 and TransE_l2_top50 and RotatE_top50
 
 ```shell
 Compound::DB09341
@@ -99,13 +99,13 @@ Compound::DB04540
 Compound::DB00907
 ```
 
-### transE_l1_top50 and ComplEx_top100 and rotatE_top50
+### TransE_l1_top50 and ComplEx_top100 and RotatE_top50
 
 ```shell
 None
 ```
 
-### transE_l2_top50 and ComplEx_top100 and rotatE_top50
+### TransE_l2_top50 and ComplEx_top100 and RotatE_top50
 
 ```shell
 None
