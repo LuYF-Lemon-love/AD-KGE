@@ -197,3 +197,8 @@ None
 
    - Paroxetine ameliorates prodromal emotional dysfunction and late-onset memory deficit in Alzheimer's disease mice.
    - Ai PH,Chen S,Liu XD,et al.Paroxetine ameliorates prodromal emotional dysfunction and late-onset memory deficit in Alzheimer's disease mice[J].Translational Neurodegeneration,2020,9(1):18. https://doi.org/10.1186/s40035-020-00194-2.
+
+- [DB00515](https://go.drugbank.com/drugs/DB00515): Cisplatin is a platinum based chemotherapy agent used to treat various sarcomas, carcinomas, lymphomas, and germ cell tumors.
+
+   - Cisplatin Inhibits the Formation of a Reactive Intermediate during Copper-Catalyzed Oxidation of Amyloid beta Peptide.
+   - Walke GR,Rapole S,Kulkarni PP.Cisplatin inhibits the formation of a reactive intermediate during copper-catalyzed oxidation of amyloid β peptide[J].Inorganic Chemistry,2014,53(19):10003-10005. https://doi.org/10.1021/ic5007764.
