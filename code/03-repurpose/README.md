@@ -134,11 +134,41 @@ Compound::DB00502
 Compound::DB01229
 ```
 
-## ComplEx_top100 and rotatE_top50
+### ComplEx_top100 and rotatE_top50
 
 ```shell
 Compound::DB01016
 Compound::DB00715
+```
+
+### transE_l1_top50 and transE_l2_top50 and ComplEx_top100
+
+```shell
+Compound::DB00363
+Compound::DB00661
+```
+
+### transE_l1_top50 and transE_l2_top50 and rotatE_top50
+
+```shell
+Compound::DB09341
+Compound::DB00143
+Compound::DB04216
+Compound::DB00783
+Compound::DB04540
+Compound::DB00907
+```
+
+### transE_l1_top50 and ComplEx_top100 and rotatE_top50
+
+```shell
+None
+```
+
+### transE_l2_top50 and ComplEx_top100 and rotatE_top50
+
+```shell
+None
 ```
 
 ## 结果分析
@@ -224,3 +254,8 @@ Compound::DB00715
    - Baraka A,ElGhotny S.Study of the effect of inhibiting galanin in Alzheimer's disease induced in rats[J].European Journal of Pharmacology,2010,641(2):123-127. https://doi.org/10.1016/j.ejphar.2010.05.030.
 
 - [DB00715](https://go.drugbank.com/drugs/DB00715): Paroxetine is a selective serotonin reuptake inhibitor used to treat major depressive disorder, panic disorder, OCD, social phobia, generalized anxiety disorder, the vasomotor symptoms of menopause, and premenstrual dysphoric disorder.
+
+   - Paroxetine ameliorates prodromal emotional dysfunction and late-onset memory deficit in Alzheimer's disease mice.
+   - Ai PH,Chen S,Liu XD,et al.Paroxetine ameliorates prodromal emotional dysfunction and late-onset memory deficit in Alzheimer's disease mice[J].Translational Neurodegeneration,2020,9(1):18. https://doi.org/10.1186/s40035-020-00194-2.
+
+- 
