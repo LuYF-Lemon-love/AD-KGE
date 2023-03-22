@@ -111,6 +111,28 @@ None
 None
 ```
 
+## RotatE 重定位结果
+
+```shell
+[9]	Compound::DB00143
+[11]	Compound::DB00502
+[13]	Compound::DB06774
+[16]	Compound::DB04216
+[17]	Compound::DB00783
+[18]	Compound::DB09341
+[20]	Compound::DB00822
+[21]	Compound::DB00640
+[23]	Compound::DB01105
+[29]	Compound::DB00715
+[31]	Compound::DB00907
+[39]	Compound::DB01229
+[41]	Compound::DB04540
+[43]	Compound::DB01016
+[44]	Compound::DB02010
+[46]	Compound::DB14681
+[48]	Compound::DB00321
+```
+
 ## 结果分析
 
 - [DB00477](https://go.drugbank.com/drugs/DB00477): Chlorpromazine is a phenothiazine antipsychotic used to treat nausea, vomiting, preoperative anxiety, schizophrenia, bipolar disorder, and severe behavioral problems in children.
@@ -202,3 +224,30 @@ None
 
    - Cisplatin Inhibits the Formation of a Reactive Intermediate during Copper-Catalyzed Oxidation of Amyloid beta Peptide.
    - Walke GR,Rapole S,Kulkarni PP.Cisplatin inhibits the formation of a reactive intermediate during copper-catalyzed oxidation of amyloid β peptide[J].Inorganic Chemistry,2014,53(19):10003-10005. https://doi.org/10.1021/ic5007764.
+
+- [DB00822](https://go.drugbank.com/drugs/DB00822): Disulfiram is a carbamate derivative used to treat alcohol addiction.
+
+   - Identification of disulfiram as a secretase-modulating compound with beneficial effects on Alzheimer's disease hallmarks.
+   - Reinhardt S,Stoye N,Luderer M,et al.Identification of disulfiram as a secretase-modulating compound with beneficial effects on Alzheimer's disease hallmarks[J].Scientific Reports,2018,8(1):1329. https://doi.org/10.1038/s41598-018-19577-7.
+
+- [DB00640](https://go.drugbank.com/drugs/DB00640): Adenosine is a medication used in myocardial perfusion scintigraphy and to treat supraventricular tachycardia.
+
+   - Emerging evidence suggests adenosine G protein-coupled receptors (GPCRs) are promising therapeutic targets for Alzheimer's disease.
+   - Trinh PNH,Baltos JA,Hellyer SD,et al.Adenosine receptor signalling in Alzheimer's disease[J].Purinergic signal,2022,18(3):359-381. https://doi.org/10.1007/s11302-022-09883-1.
+
+- [DB01105](https://go.drugbank.com/drugs/DB01105): Sibutramine is a norepinephrine, serotonin and dopamine reuptake inhibitor indicated to assist with weight loss in obesity.
+
+   - In October 2010, Sibutramine was withdrawn from Canadian and U.S. markets due to concerns that the drug increases the risk of heart attack and stroke in patients with a history of heart disease.
+
+- [DB02010](https://go.drugbank.com/drugs/DB02010): Staurosporine, An indolocarbazole that is a potent protein kinase C inhibitor which enhances cAMP-mediated responses in human neuroblastoma cells. (Biochem Biophys Res Commun 1995;214(3):1114-20)
+
+   - None.
+
+- [DB14681](https://go.drugbank.com/drugs/DB14681): Cortisone, A naturally occurring glucocorticoid. It has been used in replacement therapy for adrenal insufficiency and as an anti-inflammatory agent. Cortisone itself is inactive. It is converted in the liver to the active metabolite hydrocortisone. (From Martindale, The Extra Pharmacopoeia, 30th ed, p726)
+
+   - None. 
+
+- [DB00321](https://go.drugbank.com/drugs/DB00321): Amitriptyline is a tricyclic antidepressant indicated in the treatment of depressive illness, either endogenous or psychotic, and to relieve depression associated anxiety.
+
+   - These results indicate that amitriptyline has significant beneficial actions in aged and damaged AD brains and that it shows promise as a tolerable novel therapeutic for the treatment of AD.
+   - Chadwick W,Mitchell N,Caroll J,et al.Amitriptyline-mediated cognitive enhancement in aged 3×Tg Alzheimer's disease mice is associated with neurogenesis and neurotrophic activity[J].PLoS One,2011,6(6):e21660. https://doi.org/10.1371/journal.pone.0021660.
