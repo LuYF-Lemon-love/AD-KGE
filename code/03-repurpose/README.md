@@ -202,7 +202,7 @@ None
 
 - [DB00502](https://go.drugbank.com/drugs/DB00502): Haloperidol is an antipsychotic agent used to treat schizophrenia and other psychoses, as well as symptoms of agitation, irritability, and delirium.
 
-   - Haloperidol inactivates AMPK and reduces tau phosphorylation in a tau mouse model of Alzheimer's disease[2].
+   - Haloperidol inactivates AMPK and reduces tau phosphorylation in a tau mouse model of Alzheimer's disease.
    - Koppel J,Jimenez H,Adrien L,et al.Haloperidol inactivates AMPK and reduces tau phosphorylation in a tau mouse model of Alzheimer's disease[J].Alzheimer's & dementia,2016,2(2):121-130. https://doi.org/10.1016/j.trci.2016.05.003.
 
 - [DB01229](https://go.drugbank.com/drugs/DB01229): Paclitaxel is a taxoid chemotherapeutic agent used as first-line and subsequent therapy for the treatment of advanced carcinoma of the ovary, and other various cancers including breast and lung cancer.
