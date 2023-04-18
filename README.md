@@ -50,6 +50,8 @@ $ pip install -r requirements.txt
    - [02-analysis](code/02-analysis/): 知识图谱嵌入向量分析.
   
       - [01_relation_similarity_analysis.ipynb](code/02-analysis/01_relation_similarity_analysis.ipynb): 该脚本展示了如何分析训练的关系嵌入.
+      
+      - [01_relation_similarity_analysis_supplement.ipynb](code/02-analysis/01_relation_similarity_analysis_supplement.ipynb): 上面分析关系嵌入脚本的补充.
 
       - [02_entity_similarity_analysis.ipynb](code/02-analysis/02_entity_similarity_analysis.ipynb): 该脚本展示了如何分析训练的实体嵌入.
 
