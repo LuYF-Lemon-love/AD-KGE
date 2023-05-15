@@ -4,6 +4,8 @@
 
 利用知识图谱嵌入模型研究阿尔茨海默病的药物重定位.
 
+该工作已被期刊录用, 不久将会发表.
+
 ## 数据
 
 原始的 DRKG 知识图谱 ( 链接:https://pan.baidu.com/s/1KRSHPjdCXf8y-0PfIEoPcg 提取码:war6 )
